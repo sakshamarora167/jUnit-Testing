@@ -8,6 +8,7 @@ public class testAddStrings {
 
 	@Test
 	public void test() {
+		
 		jUnitFunction junitstring = new jUnitFunction();
 		String result = junitstring.addStrings("new","project");
 		assertEquals("newproject",result);
